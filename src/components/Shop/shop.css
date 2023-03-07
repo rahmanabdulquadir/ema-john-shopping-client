@@ -8,8 +8,22 @@
   gap: 45px;
   margin: 100px 50px;
 }
+.pagination{
+  margin-left: 200px;
+  margin-bottom: 50px;
+}
 .cart-container{
   background-color:rgba(255, 153, 0, 0.3);
+}
+.pagination button{
+  margin-right: 10px;
+}
+.pagination .selected{
+  background-color: goldenrod;
+  border: gold;
+  font-weight: bold;
+  padding: 8px;
+  width: 40px;
 }
 @media screen and (max-width:1100px){
   .products-container{
